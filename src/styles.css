@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* TAILWIND CSS directivas: */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TAILWIND CSS : */
+body {
+  @apply bg-background-100 text-white;
+}
